@@ -10,11 +10,11 @@ jdbc = jdbc:h2:mem:testdb
 aqui podras ver los cambios que se realizaron en bd mediante el crud implementado 
 
 las API O URI junto a sus protocolos son para ser probados en postman o con curl son las siguientes : 
-GET http://localhost:8070/registros/comunas  
-POST http://localhost:8070/registros
-GET http://localhost:8070/registros/listregistros
-PUT http://localhost:8070/registros/1
-DELETE http://localhost:8070/registros/1
+ ■GET http://localhost:8070/registros/comunas  
+ ■POST http://localhost:8070/registros
+ ■GET http://localhost:8070/registros/listregistros
+ ■PUT http://localhost:8070/registros/1
+ ■DELETE http://localhost:8070/registros/1
 
 Cabe señalar que para post y put debes utilizar el siguiente request : 
 {
