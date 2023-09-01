@@ -1,0 +1,44 @@
+<div class="text-center bg-primary py-2">
+    <h2 class="text-white">Lista de Usuarios</h2>
+  </div>
+<table class="full-width-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Teléfono</th>
+        <th>Comuna</th>
+        <th>Update</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuariosRegistrados">
+        <td>{{ usuario.id }}</td>
+        <td>{{ usuario.nombre }}</td>
+        <td>{{ usuario.apellido }}</td>
+        <td>{{ usuario.telefono }}</td>
+        <td>{{ usuario.comuna }}</td>
+        <td>
+          
+          <button  (click)="actualizarUsuario(usuario)">
+            <i class="fa fa-pencil"></i>
+          </button>
+        </td>
+        <td>
+          <button   (click)="eliminarUsuario(usuario)">
+            <i class="fa fa-times"></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+          <td colspan="7" style="text-align: center;">
+            <button class="btn btn-primary" (click)="cerrarTabla()">Cerrar</button>
+          </td>
+        </tr>
+      </tfoot>
+  </table>
+  

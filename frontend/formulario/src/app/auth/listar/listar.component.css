@@ -1,0 +1,18 @@
+.full-width-table {
+    width: 100%; /* Establece el ancho al 100% */
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+  }
+  
+  /* Estilos para las celdas */
+  .full-width-table th,
+  .full-width-table td {
+    padding: 8px; /* Espaciado interno de las celdas */
+    border: 1px solid #ccc; /* Borde de las celdas */
+    text-align: left; /* Alineación del texto */
+  }
+  
+  /* Estilos para las filas impares */
+  .full-width-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Color de fondo para filas impares */
+  }
+  

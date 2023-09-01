@@ -1,0 +1,15 @@
+.login-dialog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff; /* Color celeste */
+    color: white; /* Color del texto */
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
