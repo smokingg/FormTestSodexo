@@ -1,9 +1,9 @@
 # FormTestSodexo
 crear formulario de registro de usuarios 
 
-levantar Proyecto
+# levantar Proyecto
 
-backend : 
+# backend : 
 Como estamos utilizando H2 en memoria al momento de darle arranque al proyecto esta se levantara automaticamente y para visualizarla es lo siguiente 
 http://localhost:8080/h2-ui/ ( abrira de forma local la BD la cual debes dejar todo como esta y solo modificar lo siguiente...)
 jdbc = jdbc:h2:mem:testdb 
@@ -24,7 +24,7 @@ Cabe señalar que para post y put debes utilizar el siguiente request :
   "comuna": "ejemplo comuna"
 }
 
-frontend :
+# frontend :
 
 
 para levantar el front necesitas primero 
